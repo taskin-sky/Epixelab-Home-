@@ -60,7 +60,7 @@ Epixelab/
 
 ## 🌟 Live Demo
 
-🔗 [Click here to view the website](https://taskin-sky.github.io/Epixelab-Frontend/)
+🔗 [Click here to view the website](https://taskin-sky.github.io/Epixelab-Home-/)
 
 ---
 
