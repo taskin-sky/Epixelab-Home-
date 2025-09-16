@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epixelab</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link
+      rel="icon"
+      href="./images/Epixelab-logo-ICON.png"
+      type="image/x-icon"
+    />
+
+    <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- FONTs -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="flex flex-col gap-[50px] mx-2 md:mx-[30px] lg:mx-[50px] xl:mx-[135px] 2xl:mx-[200px]"
+  >
+    <!-- NAVBAR -->
+    <nav
+      class="font-['Poppins'] font-medium lg:text-[18px] leading-[28.5px] flex justify-between mt-2 md:mt-[28px] lg:mt-[48px] items-center"
+    >
+      <div class="w-[120px] h-[25px] lg:w-auto lg:h-auto">
+        <a href="./index.html">
+          <img class="" src="./images/Logo.png" alt="logo" />
+        </a>
+      </div>
+
+      <div class="hidden md:block">
+        <ul class="flex gap-[30px] lg:gap-[40px]">
+          <li
+            class="font-['Abel'] font-normal cursor-pointer hover:font-bold hover:scale-102 hover:text-orange-600"
+          >
+            Home
+          </li>
+          <li
+            class="cursor-pointer hover:font-bold hover:scale-102 hover:text-orange-600"
+          >
+            About Us
+          </li>
+          <li
+            class="cursor-pointer hover:font-bold hover:scale-102 hover:text-orange-600"
+          >
+            Our App
+          </li>
+          <li
+            class="cursor-pointer hover:font-bold hover:scale-102 hover:text-orange-600"
+          >
+            Contacts
+          </li>
+        </ul>
+      </div>
+
+      <div class="">
+        <button
+          class="w-[60px] h-[24px] md:w-[119px] md:h-[48px] rounded-lg cursor-pointer hover:font-extrabold hover:scale-102 hover:text-orange-600"
+        >
+          Login
+        </button>
+        <button
+          class="primary-btn px-[2px] md:w-[119px] md:h-[48px] rounded-lg cursor-pointer hover:scale-102"
+        >
+          Sign up
+        </button>
+      </div>
+
+      <img
+        class="w-auto mr-1 h-[49px] block md:hidden"
+        src="./images/sideBar.png"
+        alt=""
+      />
+    </nav>
+
+    <!-- HOME -->
+    <section class="relative md:mb-[80px]">
+      <div class="flex flex-col-reverse">
+        <div>
+          <div>
+            <p
+              class="color-0B1B35 font-['Poppins'] text-[38px] md:text-[40px] lg:text-[60px] xl:text-[70px] font-extrabold text-gray-900 mb-6 md:pt-15 md:leading-[50px] lg:leading-[81px] top-[-300px]"
+            >
+              We boost <br class="hidden md:block" />
+              growth for your <br class="hidden md:block" />
+              startup business
+            </p>
+
+            <p
+              class="w-auto md:w-[450px] lg:w-[555px] mb-8 font-['Poppins'] font-medium text-[22px] leading-[28.5px]"
+            >
+              Our goal is top at the heart of creativity services industry as a
+              digital creator. In has a after comment
+            </p>
+
+            <div class="flex items-center gap-[30px]">
+              <button
+                class="primary-btn text-white py-3 px-8 rounded-[10px] font-['Poppins'] cursor-pointer hover:scale-102"
+              >
+                Get Started
+              </button>
+
+              <button
+                class="flex items-center justify-center gap-[20px] w-[169px] h-[60px] cursor-pointer hover:scale-102"
+              >
+                <img
+                  class="w-[50px] h-[60px]"
+                  src="./images/Learn More icon.png"
+                  alt=""
+                />
+                <span class="text-gray-700">Learn More</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- home-rightSide -->
+        <div class="">
+          <div class="md:w-full md:h-full">
+            <img
+              class="md:absolute md:right-[-110px] md:top-[0px] w-[700px] lg:w-[800px] xl:w-[900px] h-auto"
+              src="./images/Group 32.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Vision & Our Goal -->
+    <section>
+      <div class="text-center my-20">
+        <p class="color-8A898E">SERVICE</p>
+        <h2
+          class="font-['Abel'] text-[34px] md:text-[52px] leading-[28.5px] text-center color-0B1B35"
+        >
+          Our Vison & Our Goal
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-[60px]">
+        <!-- card-1 -->
+        <div
+          class="col-span-1 flex flex-col items-center gap-[20px] py-9 px-8 rounded-[28px] shadow-[0px_2.77px_2.21px_0px_#00000005,0px_6.65px_5.32px_0px_#00000007,0px_12.52px_10.02px_0px_#00000009,0px_22.34px_17.87px_0px_#0000000B,0px_41.78px_33.42px_0px_#0000000D,0px_100px_80px_0px_#00000012] space-y-[10px] cursor-pointer hover:bg-orange-50/50 border border-transparent hover:border-orange-300"
+        >
+          <img
+            class="h-[76.47px] w-[76.47px]"
+            src="./images/graphic-design.png"
+            alt=""
+          />
+
+          <h3 class="font-['Able'] text-[26px] lg:text-[36px] text-center">
+            Graphic Design
+          </h3>
+
+          <p class="text-center text-[18px] font-['Poppins']">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
+            mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus
+            laoreet dolor nec imperdiet.
+          </p>
+
+          <button
+            class="primary-btn w-[162px] h-[49px] rounded-[10px] hover:scale-102"
+          >
+            <p class="font-['Poppins']">Learn <span class="pl-10"></span></p>
+          </button>
+        </div>
+
+        <!-- card-2 -->
+        <div
+          class="col-span-1 flex flex-col items-center gap-[20px] py-9 px-8 rounded-[28px] shadow-[0px_2.77px_2.21px_0px_#00000005,0px_6.65px_5.32px_0px_#00000007,0px_12.52px_10.02px_0px_#00000009,0px_22.34px_17.87px_0px_#0000000B,0px_41.78px_33.42px_0px_#0000000D,0px_100px_80px_0px_#00000012] space-y-[10px] cursor-pointer hover:bg-orange-50/50 border border-transparent hover:border-orange-300"
+        >
+          <img
+            class="mb-[19px] h-[57.35px] w-[76.47px]"
+            src="./images/Video.png"
+            alt=""
+          />
+
+          <h3 class="font-['Able'] text-[26px] lg:text-[36px] text-center">
+            Video Editing
+          </h3>
+
+          <p class="text-center text-[18px] font-['Poppins']">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
+            mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus
+            laoreet dolor nec imperdiet.
+          </p>
+
+          <button
+            class="primary-btn w-[162px] h-[49px] rounded-[10px] hover:scale-102"
+          >
+            <p class="font-['Poppins']">Learn <span class="pl-10"></span></p>
+          </button>
+        </div>
+
+        <!-- card-3 -->
+        <div
+          class="col-span-1 flex flex-col items-center gap-[20px] py-9 px-8 rounded-[28px] shadow-[0px_2.77px_2.21px_0px_#00000005,0px_6.65px_5.32px_0px_#00000007,0px_12.52px_10.02px_0px_#00000009,0px_22.34px_17.87px_0px_#0000000B,0px_41.78px_33.42px_0px_#0000000D,0px_100px_80px_0px_#00000012] space-y-[10px] cursor-pointer hover:bg-orange-50/50 border border-transparent hover:border-orange-300"
+        >
+          <img
+            class="h-[76.47px] w-[76.47px]"
+            src="./images/digital-marketing.png"
+            alt=""
+          />
+
+          <h3 class="font-['Able'] text-[26px] lg:text-[32px] text-center">
+            Digital Marketing
+          </h3>
+
+          <p class="text-center text-[18px] font-['Poppins']">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
+            mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus
+            laoreet dolor nec imperdiet.
+          </p>
+
+          <button
+            class="primary-btn w-[162px] h-[49px] rounded-[10px] hover:scale-102"
+          >
+            <p class="font-['Poppins']">Learn <span class="pl-10"></span></p>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Many Blocks and Components -->
+    <section class="flex flex-col md:flex-row justify-between mt-[100px]">
+      <div
+        class="flex flex-col items-center md:items-start justify-center md:justify-between py-4 md:pr-[100px] w-[100%] md:w-[40%]"
+      >
+        <div class="text-center md:text-start">
+          <h3
+            class="color-1E0E62 font-['DM_Sans'] font-medium text-[22px] leading-[32px]"
+          >
+            Many Blocks and <br />
+            Components
+          </h3>
+          <p
+            class="text-gray-600 opacity-60 font-['DM_Sans'] font-normal text-[16px] leading-[26px] tracking-[0] mt-[30PX]"
+          >
+            Startup Framework contains components and complex blocks which can
+            easily be integrated into almost any design.
+          </p>
+        </div>
+        <button
+          class="py-2 px-4 border border-gray-400 rounded-full border-2 border-gray-400/40 w-[132.68px] h-[48.25px] font-semibold color-1E0E62 cursor-pointer hover:bg-orange-50 mt-4 md:mt-0"
+        >
+          Explore
+        </button>
+      </div>
+
+      <div class="cursor-pointer">
+        <img
+          class="rounded-lg hover:rounded-full transition-all duration-300"
+          src="./images/explore.png"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <!-- What Clients say about us -->
+    <section class="md:mx-[100px]">
+      <div class="text-center my-20">
+        <p class="color-8A898E">TESTMONIALS</p>
+        <h2
+          class="font-['Abel'] text-[34px] md:text-[52px] leading-[28.5px] text-center color-0B1B35"
+        >
+          What Clients say about us
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-[30px]">
+        <!-- CLINT 1 -->
+        <div
+          class="col-span-1 flex flex-col md:flex-row items-center md:items-start gap-[20px] lg:p-10"
+        >
+          <img
+            class="h-[70px] w-[70px] rounded-[10px]"
+            src="./images/clint-1.png"
+            alt="Clint"
+          />
+
+          <div
+            class="flex flex-col justify-between gap-[10px] md:gap-[30px] mx-4"
+          >
+            <p
+              class="color-0B1B35 font-['DM_Sans'] font-medium text-[18px] leading-[28px]"
+            >
+              Get a fully retina ready site when you build with Startup
+              Framework. Websites look sharper and more gorgeous on devices with
+              retina display support
+            </p>
+            <p
+              class="text-gray-400 opacity-80 font-['DM_Sans'] font-bold text-[14px] leading-[26px] tracking-[2px] uppercase"
+            >
+              Rayhan Curran
+            </p>
+          </div>
+        </div>
+
+        <!-- CLINT-2 -->
+        <div
+          class="col-span-1 flex flex-col md:flex-row items-center md:items-start gap-[20px] lg:p-10"
+        >
+          <img
+            class="h-[70px] w-[70px] rounded-[10px]"
+            src="./images/clint-2.png"
+            alt="Clint"
+          />
+
+          <div
+            class="flex flex-col justify-between gap-[10px] md:gap-[80px] px-4"
+          >
+            <p
+              class="color-0B1B35 font-['DM_Sans'] font-medium text-[18px] leading-[28px]"
+            >
+              As a business targeting high net worth individuals, we were
+              looking for a slick, cool and mini-malistic design for our website
+            </p>
+            <p
+              class="text-gray-400 opacity-80 font-['DM_Sans'] font-bold text-[14px] leading-[26px] tracking-[2px] uppercase"
+            >
+              Kayley Frame
+            </p>
+          </div>
+        </div>
+
+        <!-- CLINT-3-->
+        <div
+          class="col-span-1 flex flex-col md:flex-row items-center md:items-start gap-[20px] lg:p-10"
+        >
+          <img
+            class="h-[70px] w-[70px] rounded-[10px]"
+            src="./images/clint-3.png"
+            alt="Clint"
+          />
+
+          <div
+            class="flex flex-col gap-[10px] md:gap-[80px] justify-between px-4"
+          >
+            <p
+              class="color-0B1B35 font-['DM_Sans'] font-medium text-[18px] leading-[28px]"
+            >
+              The most important part of the Startup Framework is the samples
+              samples
+            </p>
+            <p
+              class="text-gray-400 opacity-80 font-['DM_Sans'] font-bold text-[14px] leading-[26px] tracking-[2px] uppercase"
+            >
+              Gene Whitfield
+            </p>
+          </div>
+        </div>
+
+        <!-- CLINT 4-->
+        <div
+          class="col-span-1 flex flex-col md:flex-row items-center md:items-start gap-[20px] lg:p-10"
+        >
+          <img
+            class="h-[70px] w-[70px] rounded-[10px]"
+            src="./images/clint-4.png"
+            alt="Clint"
+          />
+
+          <div
+            class="flex flex-col justify-between gap-[10px] md:gap-[80px] px-4"
+          >
+            <p
+              class="color-0B1B35 font-['DM_Sans'] font-medium text-[18px] leading-[28px]"
+            >
+              I’ve built my website with Startup just in one day, and it was
+              ready-to-go.
+            </p>
+            <p
+              class="text-gray-400 opacity-80 font-['DM_Sans'] font-bold text-[14px] leading-[26px] tracking-[2px] uppercase"
+            >
+              Allan Kim
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Meet The Team SECTION-->
+    <section class="mt-[50px]">
+      <div class="text-center">
+        <p class="color-8A898E">OUR TEAM</p>
+        <h2
+          class="font-['Abel'] text-[34px] md:text-[52px] leading-[28.5px] text-center color-0B1B35"
+        >
+          Meet The Team
+        </h2>
+      </div>
+
+      <!-- Member card -->
+      <div
+        class="flex flex-col lg:flex-row items-center justify-center gap-[30px] mt-[60px]"
+      >
+        <!-- Member-1 -->
+        <div
+          class="flex flex-col justify-center items-center gap-[15px] w-[370px] md:w-[600px] lg:w-[370px] h-[370px] border-2 border-gray-200 rounded-lg hover:shadow-2xl hover:bg-orange-50 cursor-pointer"
+        >
+          <div class="">
+            <img src="./images/member-1.png" alt="Team Member" />
+          </div>
+
+          <div class="">
+            <h4
+              class="color-1E0E62 font-['DM_Sans'] font-medium text-[22px] leading-[32px] text-center"
+            >
+              Vanessa Laird
+            </h4>
+            <p
+              class="text-gray-500 font-['DM_Sans'] font-bold text-[14px] leading-[26px] tracking-[2px] text-center uppercase"
+            >
+              UI Designer
+            </p>
+          </div>
+
+          <div class="flex w-[370px] md:w-[600px] lg:w-[370px] h-[52px]">
+            <div
+              class="mt-[55px] border-t-2 border-r-2 border-gray-200 h-[100%] w-[100%] flex justify-center items-center cursor-pointer"
+            >
+              <i
+                class="fa-brands fa-square-instagram fa-bounce"
+                style="color: #2c22b9"
+              ></i>
+            </div>
+
+            <div
+              class="mt-[55px] border-t-2 border-gray-200 h-[100%] w-[100%] flex justify-center items-center cursor-pointer"
+            >
+              <i
+                class="fa-brands fa-square-twitter fa-bounce"
+                style="color: #2c22b9"
+              ></i>
+            </div>
+
+            <div
+              class="mt-[55px] border-t-2 border-l-2 border-gray-200 h-[100%] w-[100%] flex justify-center items-center cursor-pointer"
+            >
+              <i
+                class="fa-brands fa-square-facebook fa-bounce"
+                style="color: #2c22b9"
+              ></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Member-2 -->
+        <div
+          class="flex flex-col justify-center items-center gap-[15px] w-[370px] md:w-[600px] lg:w-[370px] h-[370px] border-2 border-gray-200 rounded-lg hover:shadow-2xl hover:bg-orange-50 cursor-pointer"
+        >
+          <div class="">
+            <img src="./images/member-2.png" alt="Team Member" />
+          </div>
+
+          <div class="">
+            <h4
+              class="color-1E0E62 font-['DM_Sans'] font-medium text-[22px] leading-[32px] tracking-[0] text-center"
+            >
+              Vanessa Laird
+            </h4>
+            <p
+              class="text-gray-500 font-['DM_Sans'] font-bold text-[14px] leading-[26px] tracking-[2px] text-center uppercase"
+            >
+              UI Designer
+            </p>
+          </div>
+
+          <div class="flex w-[370px] md:w-[600px] lg:w-[370px] h-[52px]">
+            <div
+              class="mt-[55px] border-t-2 border-r-2 border-gray-200 h-[100%] w-[100%] flex justify-center items-center cursor-pointer"
+            >
+              <i
+                class="fa-brands fa-square-instagram fa-bounce"
+                style="color: #2c22b9"
+              ></i>
+            </div>
+
+            <div
+              class="mt-[55px] border-t-2 border-gray-200 h-[100%] w-[100%] flex justify-center items-center cursor-pointer"
+            >
+              <i
+                class="fa-brands fa-square-twitter fa-bounce"
+                style="color: #2c22b9"
+              ></i>
+            </div>
+
+            <div
+              class="mt-[55px] border-t-2 border-l-2 border-gray-200 h-[100%] w-[100%] flex justify-center items-center cursor-pointer"
+            >
+              <i
+                class="fa-brands fa-square-facebook fa-bounce"
+                style="color: #2c22b9"
+              ></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Member-3 -->
+        <div
+          class="flex flex-col justify-center items-center gap-[15px] w-[370px] md:w-[600px] lg:w-[370px] h-[370px] border-2 border-gray-200 rounded-lg hover:shadow-2xl hover:bg-orange-50 cursor-pointer"
+        >
+          <div class="">
+            <img src="./images/member-3.png" alt="Team Member" />
+          </div>
+
+          <div class="">
+            <h4
+              class="color-1E0E62 font-['DM_Sans'] font-medium text-[22px] leading-[32px] tracking-[0] text-center"
+            >
+              Vanessa Laird
+            </h4>
+            <p
+              class="text-gray-500 font-['DM_Sans'] font-bold text-[14px] leading-[26px] tracking-[2px] text-center uppercase"
+            >
+              UI Designer
+            </p>
+          </div>
+
+          <div class="flex w-[370px] md:w-[600px] lg:w-[370px] h-[52px]">
+            <div
+              class="mt-[55px] border-t-2 border-r-2 border-gray-200 h-[100%] w-[100%] flex justify-center items-center cursor-pointer"
+            >
+              <i
+                class="fa-brands fa-square-instagram fa-bounce"
+                style="color: #2c22b9"
+              ></i>
+            </div>
+
+            <div
+              class="mt-[55px] border-t-2 border-gray-200 h-[100%] w-[100%] flex justify-center items-center cursor-pointer"
+            >
+              <i
+                class="fa-brands fa-square-twitter fa-bounce"
+                style="color: #2c22b9"
+              ></i>
+            </div>
+
+            <div
+              class="mt-[55px] border-t-2 border-l-2 border-gray-200 h-[100%] w-[100%] flex justify-center items-center cursor-pointer"
+            >
+              <i
+                class="fa-brands fa-square-facebook fa-bounce"
+                style="color: #2c22b9"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Subscribe Our Newsletter SECTION-->
+    <section class="mt-[80px] mb-[80px]">
+      <div class="text-center">
+        <p class="color-8A898E">OUR TEAM</p>
+        <h2
+          class="font-['Abel'] font-normal text-[34px] md:text-[52px] leading-[28.5px] tracking-[0] text-center color-0B1B35 mb-[50px]"
+        >
+          Subscribe Our Newsleter
+        </h2>
+      </div>
+
+      <!-- Box -->
+      <div class="grid grid-cols-1 md:grid-cols-3 mt-[80px]">
+        <div class="col-span-1 flex justify-center">
+          <img class="" src="./images/Frame.png" alt="" />
+        </div>
+
+        <div
+          class="col-span-1 md:col-span-2 flex flex-col justify-center items-center"
+        >
+          <p
+            class="font-['Roboto'] w-[90%] h-auto lg:w-[700px] lg:h-[77px] text-[18px] leading-[28.5px] mb-4 cursor-pointer text-center md:text-start"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam
+          </p>
+
+          <div
+            class="flex justify-center w-[90%] h-[40px] lg:w-[700px] lg:h-[77px] border border-gray-400/50 rounded-[49px] shadow-[0px_2.77px_2.21px_0px_rgba(0,0,0,0.02),0px_6.65px_5.32px_0px_rgba(0,0,0,0.03),0px_12.52px_10.02px_0px_rgba(0,0,0,0.04),0px_22.34px_17.87px_0px_rgba(0,0,0,0.04),0px_41.78px_33.42px_0px_rgba(0,0,0,0.05),0px_100px_80px_0px_rgba(0,0,0,0.07)] hover:bg-orange-50 cursor-pointer"
+          >
+            <input
+              class="font-['Roboto'] text-[24px] leading-[28.5px] text-center"
+              type="text"
+              placeholder="YourE-mail here..."
+            />
+          </div>
+
+          <button
+            class="primary-btn rounded-[10px] font-['Poppins'] text-[18px] w-[90%] h-[40px] lg:w-[700px] lg:h-[77px] leading-[28.5px] mt-10 cursor-pointer hover:scale-102"
+          >
+            Subscribe Our Newsletter
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-[14px]">
+      <div class="flex flex-col-reverse md:flex-row gap-[10px] justify-between">
+        <div class="flex gap-[60px]">
+          <a href="./index.html">
+            <img
+              class="w-[111px] h-[23px]"
+              src="./images/Logo (2).png"
+              alt="logo"
+            />
+          </a>
+          <p
+            class="text-blue-900 font-['DM_Sans'] text-[12px] md:text-[16px] leading-[26px]"
+          >
+            <i class="fa-regular fa-copyright" style="color: #1e0e62"></i>
+            2020 Epixelab. All rights reserved.
+          </p>
+        </div>
+
+        <div class="hidden md:block">
+          <ul
+            class="flex gap-[40px] text-blue-900 font-['DM_Sans'] text-[16px] leading-[26px]"
+          >
+            <li class="hover:text-blue-700 hover:font-semibold cursor-pointer">
+              Portfolio
+            </li>
+            <li class="hover:text-blue-700 hover:font-semibold cursor-pointer">
+              How it Works
+            </li>
+            <li class="hover:text-blue-700 hover:font-semibold cursor-pointer">
+              Pricing
+            </li>
+            <li class="hover:text-blue-700 hover:font-semibold cursor-pointer">
+              About
+            </li>
+            <li class="hover:text-blue-700 hover:font-semibold cursor-pointer">
+              Login
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ============================ -->
+      <div class="border-t border-gray-200 mt-[20px]">
+        <p
+          class="mt-[30px] text-gray-400 mb-[50px] font-['DM_Sans'] text-[11px] md:text-[16px] leading-[26px]"
+        >
+          Startup Framework contains components and complex blocks which can
+          easily be integrated into almost any design.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+.primary-btn {
+  background-color: #ff6600;
+  color: white;
+}
+
+.color-0B1B35 {
+  color: #0b1b35;
+}
+
+.color-1E0E62 {
+  color: #1e0e62;
+}
+
+.color-8A898E {
+  color: #8a898e;
+  font-family: 'Abel', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28.5px;
+  letter-spacing: 0.45em;
+  text-align: center;
+  margin-bottom: 20px;
+}
